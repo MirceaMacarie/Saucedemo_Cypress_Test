@@ -31,7 +31,7 @@ An automation testing project written with Cypress JS framework. It was develope
 ## :pushpin: Setup and installation :hammer_and_wrench:	
 1. The first time I created a remote repository on GitHub, then a local repository on my computer.
 2. In the project's local folder, I installed the **Cypress** automatic testing framework from the Command Prompt, by executing the command: "npm i cypress".
-3. After the final installation of Cypress, I had to open it by command line "npx cypress open" in Command Prompt and configure the framework for this project: selecting the type of testing for this project (End-to-End Testing), selecting the Google Chrome browser to run the website, create and setting the specific folder of the JavaScript test code (in this case: **"cypress\e2e\History_Tests"**).
+3. After the final installation of Cypress, I had to open it by command line "npx cypress open" in Command Prompt and configure the framework for this project: selecting the type of testing for this project (End-to-End Testing), selecting the Google Chrome browser to run the website, create and setting the specific folder of the JavaScript test code (in this case: **"cypress\e2e\Sauce_Test_File.cy.js"**).
 4. After I have finished configuring Cypress for this project, I open a JS code file in the **"cypress\e2e\Sauce_Test_File.cy.js"** folder and add the unitary organized test suite with proper names for all the tests in it, following the documentation of Cypress framework.
 5. The automated test suite is executed by running in the Cypress interface, with a generic report in the left and the visual execution of the tests in the right part. During execution, I put more breaks in the testing code execution, such that every different test case to be more easily observed. 
 
@@ -60,7 +60,16 @@ This project was thought as a way to:
 
 
 ## :pushpin: Demo video of the Automation test :clapper:
-Below is the **video recording** of the automation tests execution, written for testing of Faculty of History BBU website.
+Below is the **video recording** of the automation tests execution, made for automated different test cases on Saucedemo.com website.
 
 
 
+
+
+https://user-images.githubusercontent.com/115346533/220306090-e5804d57-dab2-40bf-aecf-e61ed44ea00e.mp4
+
+
+
+
+
+------
